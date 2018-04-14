@@ -1,0 +1,28 @@
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll.config
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.pdb
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.DotNetBar.Design.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.DotNetBar2.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.Instrumentation.Design.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.Instrumentation.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep.exe
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep.pdb
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep_Accessor.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep_Accessor.pdb
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\obj\Release\ResolveAssemblyReference.cache
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\obj\Release\Unit_Test.dll
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\Unit_Test\obj\Release\Unit_Test.pdb
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll.config
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.pdb
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.DotNetBar.Design.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.DotNetBar2.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.Instrumentation.Design.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DevComponents.Instrumentation.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep.exe
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep.pdb
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep_Accessor.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\DoAnTotNghiep_Accessor.pdb
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\obj\Release\ResolveAssemblyReference.cache
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\obj\Release\Unit_Test.dll
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\obj\Release\Unit_Test.pdb

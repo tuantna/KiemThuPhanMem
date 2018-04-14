@@ -1,0 +1,227 @@
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\ResolveAssemblyReference.cache
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Frmain.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChucVu_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DangNhap.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMChucVu.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDonVi.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDVTinh.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMLoaiTB.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhaCC.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNSX.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThietBi.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DonVi_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DVT_edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.LoaiTB_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhaCC_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NSX_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Properties.Resources.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.csproj.GenerateResource.Cache
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe.config
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.pdb
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DevComponents.DotNetBar.Design.dll
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DevComponents.DotNetBar2.dll
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DevComponents.Instrumentation.Design.dll
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DevComponents.Instrumentation.dll
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\ResolveAssemblyReference.cache
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Frmain.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChucVu_Edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DangNhap.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMChucVu.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDonVi.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDVTinh.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMLoaiTB.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhaCC.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNSX.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThietBi.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMTyLe.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DonVi_Edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DVT_edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.LoaiTB_Edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhaCC_Edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NSX_Edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TyLe_Edit.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Properties.Resources.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.csproj.GenerateResource.Cache
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.exe
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.pdb
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Doi_Mat_Khau.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.CN_Nguoi_Dung.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TimKiemNhanVien.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Cap_Quyen.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.BanLamViec.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhanVien.resources
+I:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhanVien_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe.config
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.exe
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.pdb
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.pdb
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\ResolveAssemblyReference.cache
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Frmain.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.BanLamViec.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Cap_Quyen.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChucVu_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.CN_Nguoi_dung.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DangNhap.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMChucVu.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDonVi.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDVTinh.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMLoaiTB.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhaCC.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhanVien.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNSX.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThietBi.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMTyLe.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Doi_Mat_Khau.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DonVi_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DVT_edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.LoaiTB_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhaCC_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhanVien_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NSX_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TimKiemNhanVien.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TyLe_Edit.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Properties.Resources.resources
+M:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.csproj.GenerateResource.Cache
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe.config
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.exe
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.pdb
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.pdb
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.BanLamViec.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Cap_Quyen.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.CN_Nguoi_dung.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhanVien.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Doi_Mat_Khau.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhanVien_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TimKiemNhanVien.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThanhLy.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ThietBi_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMPhongBan.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.PhieuKiemKe.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.PhongBan_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_Backup_DuLieu.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_BanGiao.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DSThietBi.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapThietBi.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DSThietBiKKe.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChungTu_BanGiao.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DM_TinhTrang.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.FrmBaoCao.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DanhGiaTBi.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DanhGia_Edit.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_InBaoCao.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapTBPQuyen.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapThemTBPQ.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_ThanhLy.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemNhacc.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemTB_PhongBan.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemThietBi.resources
+G:\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TinhTrang_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe.config
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.pdb
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\ResolveAssemblyReference.cache
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Frmain.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.BanLamViec.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Cap_Quyen.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChucVu_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChungTu_BanGiao.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.CN_Nguoi_dung.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DangNhap.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMChucVu.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDonVi.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDVTinh.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMLoaiTB.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhaCC.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhanVien.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNSX.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMPhongBan.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThanhLy.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThietBi.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DM_TinhTrang.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Doi_Mat_Khau.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DonVi_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DVT_edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.FrmBaoCao.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_Backup_DuLieu.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_BanGiao.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DanhGiaTBi.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DanhGia_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DSThietBi.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DSThietBiKKe.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_InBaoCao.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapTBPQuyen.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapThemTBPQ.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapThietBi.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_ThanhLy.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemNhacc.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemTB_PhongBan.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemThietBi.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.LoaiTB_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhaCC_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhanVien_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NSX_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.PhieuKiemKe.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.PhongBan_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ThietBi_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TimKiemNhanVien.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TinhTrang_Edit.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Properties.Resources.resources
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.csproj.GenerateResource.Cache
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.exe
+H:\TAILIEUQTRONG\NAM 3\HOC KY II\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.pdb
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe.config
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.pdb
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\ResolveAssemblyReference.cache
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Frmain.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.BanLamViec.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Cap_Quyen.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChucVu_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ChungTu_BanGiao.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.CN_Nguoi_dung.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DangNhap.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMChucVu.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDonVi.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMDVTinh.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMLoaiTB.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhaCC.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNhanVien.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMNSX.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMPhongBan.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThanhLy.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DMThietBi.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DM_TinhTrang.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Doi_Mat_Khau.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DonVi_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.DVT_edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.FrmBaoCao.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_Backup_DuLieu.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_BanGiao.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DanhGiaTBi.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DanhGia_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DSThietBi.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_DSThietBiKKe.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_InBaoCao.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapTBPQuyen.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapThemTBPQ.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_NhapThietBi.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_ThanhLy.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemNhacc.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemTB_PhongBan.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.Frm_TimKiemThietBi.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.LoaiTB_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhaCC_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NhanVien_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.NSX_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.PhieuKiemKe.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.PhongBan_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.ThietBi_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TimKiemNhanVien.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.PresentationLayer.TinhTrang_Edit.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.Properties.Resources.resources
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.csproj.GenerateResource.Cache
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.exe
+E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\obj\Release\DoAnTotNghiep.pdb

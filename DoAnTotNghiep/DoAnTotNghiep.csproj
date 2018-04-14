@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DCAD64E-9A0F-4169-9CF2-9F4B720EA49D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DoAnTotNghiep</RootNamespace>
+    <AssemblyName>DoAnTotNghiep</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DevComponents.DotNetBar.Design, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DotNetBar\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DotNetBar\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation.Design, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DotNetBar\DevComponents.Instrumentation.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoCao\BC_BanGiao.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_BanGiao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_KiemKe.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_KiemKe.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_KiemKe1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_KiemKe.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_NhaCC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_NhaCC1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_NhaCC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_PNhap_CTPNhap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_PNhap_CTPNhap1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_PNhap_CTPNhap.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_ThanhLy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_ThanhLy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_ThietBi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_ThietBi1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_ThietBi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BC_ThietBi_TheoLoai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BC_ThietBi_TheoLoai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BusinessLayer\BLDVTinh.cs" />
+    <Compile Include="BusinessLayer\BLLoaiTB.cs" />
+    <Compile Include="BusinessLayer\BLNguoiDung.cs" />
+    <Compile Include="BusinessLayer\BLNhaCC.cs" />
+    <Compile Include="BusinessLayer\BLNuocSX.cs" />
+    <Compile Include="BusinessLayer\BLThietBi.cs" />
+    <Compile Include="BusinessLayer\BLDonVi.cs" />
+    <Compile Include="BusinessLayer\BLChucVu.cs" />
+    <Compile Include="BusinessLayer\BLNhanVien.cs" />
+    <Compile Include="BusinessLayer\BLPhongBan.cs" />
+    <Compile Include="BusinessLayer\BLCTPNhap.cs" />
+    <Compile Include="BusinessLayer\BLPNhap.cs" />
+    <Compile Include="BusinessLayer\BLSoTheoDoi.cs" />
+    <Compile Include="BusinessLayer\BLDotKK.cs" />
+    <Compile Include="BusinessLayer\BLDDienKK.cs" />
+    <Compile Include="BusinessLayer\BLTinhTrang.cs" />
+    <Compile Include="BusinessLayer\BLPKiemKe.cs" />
+    <Compile Include="BusinessLayer\BLQuyen.cs" />
+    <Compile Include="BusinessLayer\BLBanGiao.cs" />
+    <Compile Include="BusinessLayer\BLCTBanGiao.cs" />
+    <Compile Include="BusinessLayer\BLThanhLy.cs" />
+    <Compile Include="BusinessLayer\BLCTThanhLy.cs" />
+    <Compile Include="DataAcessLayer\QLTB.cs">
+      <DependentUpon>QLTB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAcessLayer\QLTB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Frmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmain.Designer.cs">
+      <DependentUpon>Frmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhamMem.cs" />
+    <Compile Include="PresentationLayer\BanLamViec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\BanLamViec.Designer.cs">
+      <DependentUpon>BanLamViec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Cap_Quyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Cap_Quyen.Designer.cs">
+      <DependentUpon>Cap_Quyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\ChucVu_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\ChucVu_Edit.Designer.cs">
+      <DependentUpon>ChucVu_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\ChungTu_BanGiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\ChungTu_BanGiao.Designer.cs">
+      <DependentUpon>ChungTu_BanGiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CN_Nguoi_Dung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CN_Nguoi_Dung.Designer.cs">
+      <DependentUpon>CN_Nguoi_Dung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMChucVu.Designer.cs">
+      <DependentUpon>DMChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMDonVi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMDonVi.Designer.cs">
+      <DependentUpon>DMDonVi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMDVTinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMDVTinh.Designer.cs">
+      <DependentUpon>DMDVTinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMLoaiTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMLoaiTB.Designer.cs">
+      <DependentUpon>DMLoaiTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMNhaCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMNhaCC.Designer.cs">
+      <DependentUpon>DMNhaCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMNhanVien.Designer.cs">
+      <DependentUpon>DMNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMNSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMNSX.Designer.cs">
+      <DependentUpon>DMNSX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMPhongBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMPhongBan.Designer.cs">
+      <DependentUpon>DMPhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMThanhLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMThanhLy.Designer.cs">
+      <DependentUpon>DMThanhLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DMThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DMThietBi.Designer.cs">
+      <DependentUpon>DMThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DM_TinhTrang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DM_TinhTrang.Designer.cs">
+      <DependentUpon>DM_TinhTrang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Doi_Mat_Khau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Doi_Mat_Khau.Designer.cs">
+      <DependentUpon>Doi_Mat_Khau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DonVi_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DonVi_Edit.Designer.cs">
+      <DependentUpon>DonVi_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\DVT_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\DVT_edit.Designer.cs">
+      <DependentUpon>DVT_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FrmBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FrmBaoCao.Designer.cs">
+      <DependentUpon>FrmBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_Backup_DuLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_Backup_DuLieu.Designer.cs">
+      <DependentUpon>Frm_Backup_DuLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_BanGiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_BanGiao.Designer.cs">
+      <DependentUpon>Frm_BanGiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DanhGiaTBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DanhGiaTBi.Designer.cs">
+      <DependentUpon>Frm_DanhGiaTBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DanhGia_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DanhGia_Edit.Designer.cs">
+      <DependentUpon>Frm_DanhGia_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DSThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DSThietBi.Designer.cs">
+      <DependentUpon>Frm_DSThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DSThietBiKKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_DSThietBiKKe.Designer.cs">
+      <DependentUpon>Frm_DSThietBiKKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_InBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_InBaoCao.Designer.cs">
+      <DependentUpon>Frm_InBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_NhapTBPQuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_NhapTBPQuyen.Designer.cs">
+      <DependentUpon>Frm_NhapTBPQuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_NhapThemTBPQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_NhapThemTBPQ.Designer.cs">
+      <DependentUpon>Frm_NhapThemTBPQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_NhapThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_NhapThietBi.Designer.cs">
+      <DependentUpon>Frm_NhapThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_ThanhLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_ThanhLy.Designer.cs">
+      <DependentUpon>Frm_ThanhLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_TimKiemNhacc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_TimKiemNhacc.Designer.cs">
+      <DependentUpon>Frm_TimKiemNhacc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_TimKiemTB_PhongBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_TimKiemTB_PhongBan.Designer.cs">
+      <DependentUpon>Frm_TimKiemTB_PhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_TimKiemThietBi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\Frm_TimKiemThietBi.Designer.cs">
+      <DependentUpon>Frm_TimKiemThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\LoaiTB_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\LoaiTB_Edit.Designer.cs">
+      <DependentUpon>LoaiTB_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\NhaCC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\NhaCC_Edit.Designer.cs">
+      <DependentUpon>NhaCC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\NhanVien_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\NhanVien_Edit.Designer.cs">
+      <DependentUpon>NhanVien_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\NSX_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\NSX_Edit.Designer.cs">
+      <DependentUpon>NSX_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\PhieuKiemKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\PhieuKiemKe.Designer.cs">
+      <DependentUpon>PhieuKiemKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\PhongBan_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\PhongBan_Edit.Designer.cs">
+      <DependentUpon>PhongBan_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\ThietBi_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\ThietBi_Edit.Designer.cs">
+      <DependentUpon>ThietBi_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\TimKiemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\TimKiemNhanVien.Designer.cs">
+      <DependentUpon>TimKiemNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\TinhTrang_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\TinhTrang_Edit.Designer.cs">
+      <DependentUpon>TinhTrang_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BaoCao\BC_BanGiao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_BanGiao.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\BC_KiemKe.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_KiemKe1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\BC_NhaCC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_NhaCC1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\BC_PNhap_CTPNhap.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_PNhap_CTPNhap1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\BC_ThanhLy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_ThanhLy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\BC_ThietBi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_ThietBi1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\BC_ThietBi_TheoLoai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BC_ThietBi_TheoLoai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DataAcessLayer\QLTB.dbml.layout">
+      <DependentUpon>QLTB.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Frmain.resx">
+      <DependentUpon>Frmain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\BanLamViec.resx">
+      <DependentUpon>BanLamViec.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Cap_Quyen.resx">
+      <DependentUpon>Cap_Quyen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\ChucVu_Edit.resx">
+      <DependentUpon>ChucVu_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\ChungTu_BanGiao.resx">
+      <DependentUpon>ChungTu_BanGiao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\CN_Nguoi_Dung.resx">
+      <DependentUpon>CN_Nguoi_Dung.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMChucVu.resx">
+      <DependentUpon>DMChucVu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMDonVi.resx">
+      <DependentUpon>DMDonVi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMDVTinh.resx">
+      <DependentUpon>DMDVTinh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMLoaiTB.resx">
+      <DependentUpon>DMLoaiTB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMNhaCC.resx">
+      <DependentUpon>DMNhaCC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMNhanVien.resx">
+      <DependentUpon>DMNhanVien.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMNSX.resx">
+      <DependentUpon>DMNSX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMPhongBan.resx">
+      <DependentUpon>DMPhongBan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMThanhLy.resx">
+      <DependentUpon>DMThanhLy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DMThietBi.resx">
+      <DependentUpon>DMThietBi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DM_TinhTrang.resx">
+      <DependentUpon>DM_TinhTrang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Doi_Mat_Khau.resx">
+      <DependentUpon>Doi_Mat_Khau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DonVi_Edit.resx">
+      <DependentUpon>DonVi_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\DVT_edit.resx">
+      <DependentUpon>DVT_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FrmBaoCao.resx">
+      <DependentUpon>FrmBaoCao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_Backup_DuLieu.resx">
+      <DependentUpon>Frm_Backup_DuLieu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_BanGiao.resx">
+      <DependentUpon>Frm_BanGiao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_DanhGiaTBi.resx">
+      <DependentUpon>Frm_DanhGiaTBi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_DanhGia_Edit.resx">
+      <DependentUpon>Frm_DanhGia_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_DSThietBi.resx">
+      <DependentUpon>Frm_DSThietBi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_DSThietBiKKe.resx">
+      <DependentUpon>Frm_DSThietBiKKe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_InBaoCao.resx">
+      <DependentUpon>Frm_InBaoCao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_NhapTBPQuyen.resx">
+      <DependentUpon>Frm_NhapTBPQuyen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_NhapThemTBPQ.resx">
+      <DependentUpon>Frm_NhapThemTBPQ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_NhapThietBi.resx">
+      <DependentUpon>Frm_NhapThietBi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_ThanhLy.resx">
+      <DependentUpon>Frm_ThanhLy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_TimKiemNhacc.resx">
+      <DependentUpon>Frm_TimKiemNhacc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_TimKiemTB_PhongBan.resx">
+      <DependentUpon>Frm_TimKiemTB_PhongBan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\Frm_TimKiemThietBi.resx">
+      <DependentUpon>Frm_TimKiemThietBi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\LoaiTB_Edit.resx">
+      <DependentUpon>LoaiTB_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\NhaCC_Edit.resx">
+      <DependentUpon>NhaCC_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\NhanVien_Edit.resx">
+      <DependentUpon>NhanVien_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\NSX_Edit.resx">
+      <DependentUpon>NSX_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\PhieuKiemKe.resx">
+      <DependentUpon>PhieuKiemKe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\PhongBan_Edit.resx">
+      <DependentUpon>PhongBan_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\ThietBi_Edit.resx">
+      <DependentUpon>ThietBi_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\TimKiemNhanVien.resx">
+      <DependentUpon>TimKiemNhanVien.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\TinhTrang_Edit.resx">
+      <DependentUpon>TinhTrang_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="XL_Exception.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vietnam-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loaiTB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Junior_Icon_33_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Status-battery-charging-060-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Share This.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office-Customer-Male-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medal-Bronze-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kdmconfig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binary-tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4674.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line Chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pie Chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0507.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sever_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbrestore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi0054-48.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phanquyen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_client_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keychain_Access_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tech_support_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gtk-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0463.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vietnam-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_write_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4345aaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exitasdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floppy-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start_Orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-swap-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line-chart-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-b-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Help_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import_nhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abacus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-login-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_4768.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer-Text-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Danh_gia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLViec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baocao1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baocao2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataAcessLayer\QLTB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QLTB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\help_desk_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\label_blue_new.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

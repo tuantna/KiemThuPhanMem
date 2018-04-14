@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c4a82aa4-9a9c-48bd-85ea-eedc72f36e53" name="XuanCanh-PC@DESKTOP-BE0JI52 2018-04-14 17:48:00" runUser="DESKTOP-BE0JI52\XuanCanh-PC" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="a68c0ab0-2b38-4520-8388-51874d7f890d">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\TestResults\XuanCanh-PC_DESKTOP-BE0JI52 2018-04-14 17_48_00">
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.DotNetBar2.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.Instrumentation.Design.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.Instrumentation.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.DotNetBar.Design.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2018-04-14T17:48:00.2473586+07:00" queuing="2018-04-14T17:48:01.4658798+07:00" start="2018-04-14T17:48:01.8261182+07:00" finish="2018-04-14T17:48:03.1319829+07:00" />
+  <TestDefinitions>
+    <UnitTest name="btnluu_ClickTest_ErrorMaTB" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="4014d847-0424-966c-76f2-2c392acc83a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="4d8b2341-c144-4460-9672-e44be9b32efc" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.ThietBi_EditTest, Unit_Test" name="btnluu_ClickTest_ErrorMaTB" />
+    </UnitTest>
+    <UnitTest name="btnDongY_ClickTest_Error_Empty_UserName" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="b220d331-4773-ec64-4e79-9e0a2a527e60">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="0731c0af-54b1-4079-bf2f-231f65feae44" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DangNhapTest, Unit_Test" name="btnDongY_ClickTest_Error_Empty_UserName" />
+    </UnitTest>
+    <UnitTest name="btnDongY_ClickTest_ErrorPass" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="756c87ec-4cd4-75db-a3f9-04b0f2d33876">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="7bff067c-4661-4a3f-b31c-2bdff8b97189" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DangNhapTest, Unit_Test" name="btnDongY_ClickTest_ErrorPass" />
+    </UnitTest>
+    <UnitTest name="btnDongY_ClickTest_ErrorUserName" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="fdf19dcf-54b6-0a5c-c111-f057156e1e3c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="b9c90a51-da30-4136-8814-5ba21eca30f7" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DangNhapTest, Unit_Test" name="btnDongY_ClickTest_ErrorUserName" />
+    </UnitTest>
+    <UnitTest name="btnDongY_ClickTest" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="3e5bd26f-1fcd-1746-94d3-d0c6732d49b8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="1a75798b-d3a3-4676-981d-d358a6852f46" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.DangNhapTest, Unit_Test" name="btnDongY_ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3e5bd26f-1fcd-1746-94d3-d0c6732d49b8" executionId="1a75798b-d3a3-4676-981d-d358a6852f46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4014d847-0424-966c-76f2-2c392acc83a6" executionId="4d8b2341-c144-4460-9672-e44be9b32efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="756c87ec-4cd4-75db-a3f9-04b0f2d33876" executionId="7bff067c-4661-4a3f-b31c-2bdff8b97189" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b220d331-4773-ec64-4e79-9e0a2a527e60" executionId="0731c0af-54b1-4079-bf2f-231f65feae44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdf19dcf-54b6-0a5c-c111-f057156e1e3c" executionId="b9c90a51-da30-4136-8814-5ba21eca30f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a75798b-d3a3-4676-981d-d358a6852f46" testId="3e5bd26f-1fcd-1746-94d3-d0c6732d49b8" testName="btnDongY_ClickTest" computerName="DESKTOP-BE0JI52" duration="00:00:00.9405797" startTime="2018-04-14T17:48:01.8271195+07:00" endTime="2018-04-14T17:48:02.8547985+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d8b2341-c144-4460-9672-e44be9b32efc" testId="4014d847-0424-966c-76f2-2c392acc83a6" testName="btnluu_ClickTest_ErrorMaTB" computerName="DESKTOP-BE0JI52" duration="00:00:00.1689117" startTime="2018-04-14T17:48:02.8563002+07:00" endTime="2018-04-14T17:48:03.0279141+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Test.ThietBi_EditTest.btnluu_ClickTest_ErrorMaTB threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Unit_Test.ThietBi_EditTest.btnluu_ClickTest_ErrorMaTB() in E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\ThietBi_EditTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7bff067c-4661-4a3f-b31c-2bdff8b97189" testId="756c87ec-4cd4-75db-a3f9-04b0f2d33876" testName="btnDongY_ClickTest_ErrorPass" computerName="DESKTOP-BE0JI52" duration="00:00:00.0402514" startTime="2018-04-14T17:48:03.0284141+07:00" endTime="2018-04-14T17:48:03.0714424+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0731c0af-54b1-4079-bf2f-231f65feae44" testId="b220d331-4773-ec64-4e79-9e0a2a527e60" testName="btnDongY_ClickTest_Error_Empty_UserName" computerName="DESKTOP-BE0JI52" duration="00:00:00.0195990" startTime="2018-04-14T17:48:03.0734437+07:00" endTime="2018-04-14T17:48:03.0954578+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9c90a51-da30-4136-8814-5ba21eca30f7" testId="fdf19dcf-54b6-0a5c-c111-f057156e1e3c" testName="btnDongY_ClickTest_ErrorUserName" computerName="DESKTOP-BE0JI52" duration="00:00:00.0231550" startTime="2018-04-14T17:48:03.0969591+07:00" endTime="2018-04-14T17:48:03.1219763+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0c805d63-0791-4af7-b366-f157bf185a3c" name="XuanCanh-PC@DESKTOP-BE0JI52 2018-04-14 17:51:08" runUser="DESKTOP-BE0JI52\XuanCanh-PC" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="a68c0ab0-2b38-4520-8388-51874d7f890d">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\TestResults\XuanCanh-PC_DESKTOP-BE0JI52 2018-04-14 17_51_08">
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.DotNetBar2.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.Instrumentation.Design.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.Instrumentation.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.DotNetBar.Design.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2018-04-14T17:51:08.4827804+07:00" queuing="2018-04-14T17:51:09.1087815+07:00" start="2018-04-14T17:51:09.4535102+07:00" finish="2018-04-14T17:51:10.0584894+07:00" />
+  <TestDefinitions>
+    <UnitTest name="btnluu_ClickTest_ErrorMaTB" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="4014d847-0424-966c-76f2-2c392acc83a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="018443a9-e9ba-42e0-9573-47dace996a49" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.ThietBi_EditTest, Unit_Test" name="btnluu_ClickTest_ErrorMaTB" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4014d847-0424-966c-76f2-2c392acc83a6" executionId="018443a9-e9ba-42e0-9573-47dace996a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="018443a9-e9ba-42e0-9573-47dace996a49" testId="4014d847-0424-966c-76f2-2c392acc83a6" testName="btnluu_ClickTest_ErrorMaTB" computerName="DESKTOP-BE0JI52" duration="00:00:00.5037097" startTime="2018-04-14T17:51:09.4540098+07:00" endTime="2018-04-14T17:51:10.0419775+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Test.ThietBi_EditTest.btnluu_ClickTest_ErrorMaTB threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Unit_Test.ThietBi_EditTest.btnluu_ClickTest_ErrorMaTB() in E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\ThietBi_EditTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

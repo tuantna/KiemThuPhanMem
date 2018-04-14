@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="686e5266-29a4-4a34-abb4-8a1a89d57d27" name="XuanCanh-PC@DESKTOP-BE0JI52 2018-04-14 17:43:29" runUser="DESKTOP-BE0JI52\XuanCanh-PC" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="a68c0ab0-2b38-4520-8388-51874d7f890d">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\TestResults\XuanCanh-PC_DESKTOP-BE0JI52 2018-04-14 17_43_29">
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.DotNetBar2.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.Instrumentation.Design.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.Instrumentation.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Debug\DevComponents.DotNetBar.Design.dll" />
+      <DeploymentItem filename="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\DoAnTotNghiep\bin\Release\DoAnTotNghiep.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2018-04-14T17:43:29.3553164+07:00" queuing="2018-04-14T17:43:30.6167608+07:00" start="2018-04-14T17:43:31.1516144+07:00" finish="2018-04-14T17:43:31.3332612+07:00" />
+  <TestDefinitions>
+    <UnitTest name="btnluu_ClickTest_ErrorMaTB" storage="e:\xuan_canh\dai hoc mo\kiemthuphanmem\doantotnghiep\unit_test\bin\release\unit_test.dll" id="4014d847-0424-966c-76f2-2c392acc83a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="DoAnTotNghiep.exe" />
+      </DeploymentItems>
+      <Execution id="76b4e37b-f4af-4098-bffd-2237505e8afd" />
+      <TestMethod codeBase="E:\XUAN_CANH\DAI HOC MO\KiemThuPhanMem\DoAnTotNghiep\Unit_Test\bin\Release\Unit_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Test.ThietBi_EditTest, Unit_Test" name="btnluu_ClickTest_ErrorMaTB" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4014d847-0424-966c-76f2-2c392acc83a6" executionId="76b4e37b-f4af-4098-bffd-2237505e8afd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76b4e37b-f4af-4098-bffd-2237505e8afd" testId="4014d847-0424-966c-76f2-2c392acc83a6" testName="btnluu_ClickTest_ErrorMaTB" computerName="DESKTOP-BE0JI52" duration="00:00:00" startTime="2018-04-14T17:43:31.1896396+07:00" endTime="2018-04-14T17:43:31.3072439+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Error" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Unable to get type Unit_Test.ThietBi_EditTest, Unit_Test. Error: System.BadImageFormatException: Could not load file or assembly 'Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'Unit_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, StackCrawlMark&amp; stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestExecuter.GetType(UnitTestElement unitTest, String type)
+   at Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestExecuter.ResolveMethods()
+
+.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
